@@ -6,6 +6,7 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.25" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Schick.Plainquire.Filter.Mvc.Newtonsoft" Version="5.0.0-beta4" />
   </ItemGroup>
 
   <ItemGroup>

@@ -8,6 +8,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="Schick.Plainquire.Filter.Mvc" Version="5.0.0-beta4" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\FS.FilterExpressionCreator.Abstractions\FS.FilterExpressionCreator.Abstractions.csproj" />
     <ProjectReference Include="..\FS.FilterExpressionCreator\FS.FilterExpressionCreator.csproj" />
   </ItemGroup>
