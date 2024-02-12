@@ -11,6 +11,7 @@ namespace FS.FilterExpressionCreator.Newtonsoft.JsonConverters;
 /// </summary>
 /// <seealso cref="JsonConverter{T}" />
 [SuppressMessage("ReSharper", "InconsistentNaming")]
+[Obsolete("Use 'Schick.Plainquire.Filter.Newtonsoft.ValueFilterConverter' instead.")]
 public class ValueFilterConverter : JsonConverter<ValueFilter>
 {
     /// <inheritdoc />

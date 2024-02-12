@@ -13,6 +13,7 @@ namespace FS.FilterExpressionCreator.ValueFilterExpressionCreators;
 
 /// <inheritdoc cref="IEnumFilterExpressionCreator"/>
 [SuppressMessage("ReSharper", "InconsistentNaming")]
+[Obsolete("Use 'Schick.Plainquire.Filter.ValueFilterExpression.EnumFilterExpression' instead.")]
 public class EnumFilterExpressionCreator : DefaultFilterExpressionCreator, IEnumFilterExpressionCreator
 {
     /// <inheritdoc />

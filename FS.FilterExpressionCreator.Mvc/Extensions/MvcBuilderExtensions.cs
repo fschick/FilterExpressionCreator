@@ -8,6 +8,7 @@ namespace FS.FilterExpressionCreator.Mvc.Extensions;
 /// <summary>
 /// Extensions to register entity filter extensions to MVC
 /// </summary>
+[Obsolete("Use 'Schick.Plainquire.Filter.Mvc.Extensions.MvcBuilderExtensions' instead.")]
 public static class MvcBuilderExtensions
 {
     /// <summary>

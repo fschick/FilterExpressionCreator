@@ -8,6 +8,7 @@ namespace FS.FilterExpressionCreator.Newtonsoft.Extensions;
 /// <summary>
 /// Extension methods for <see cref="JsonConverter"/>.
 /// </summary>
+[Obsolete("Use 'Schick.Plainquire.Filter.Newtonsoft.JsonConverterExtensions' instead.")]
 public static class JsonConverterExtensions
 {
     /// <summary>
